@@ -3,7 +3,7 @@ import {Navbar , Welcome, Footer, Services, Transactions} from './components'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+ /*  const [count, setCount] = useState(0) */
 
   return (
     <div className="min-h-screen">
@@ -19,3 +19,5 @@ function App() {
 }
 
 export default App
+
+

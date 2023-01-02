@@ -30,7 +30,7 @@ const Welcome = () => {
 
     e.preventDefault();
 
-    //if (!addressTo || !amount || !keyword || !message) return;
+    if (!addressTo || !amount || !keyword || !message) return;
 
     sendTransaction();
     
